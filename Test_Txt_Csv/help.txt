@@ -1,0 +1,28 @@
+Description of the application
+The application works with files csv & txt
+reads information, displays statistics, outputs errors, removes errors.
+Keys for working with applications
+Keys -h - to get help for example <-h>;
+Keys -f - statistics for the year or month; for example year - <-s file_name.csv> or month - <-s file_name.csv xx -m>; xx - month number;
+Keys .\prog -f ./Test_Txt_Csv/temperature_big.csv statistics per year
+Keys.\prog -f ./Test_Txt_Csv/temperature_small.csv statistics per year
+  requests to sort by date
+  WARNING  temperature_small.csv sorting is required
+5 .\prog -f ./Test_Txt_Csv/temperature_big.csv XX(number) -m  statistics per month
+6 .\prog -f ./Test_Txt_Csv/temperature_small.csv XX(number) -m  statistics per month
+  requests to sort by date
+  WARNING  temperature_small.csv sorting is required
+7 -m - Statistics for the entered month, format: MMYYYY; for example <-m xx>; xx - month number;
+8 .\prog -m ./Test_Txt_Csv/temperature_big.csv XX(number)    statistics per month
+9 .\prog -m ./Test_Txt_Csv/temperature_small.csv XX(number)  statistics per month
+  requests to sort by date
+  WARNING  temperature_small.csv sorting is required
+10 -e - show errors in the file for example <-e>;
+11 .\prog -e ./Test_Txt_Csv/temperature_big.csv 
+12 .\prog -e ./Test_Txt_Csv/temperature_small.csv 
+13 -r - read the file for example <-r file_name>;
+14 .\prog -r ./Test_Txt_Csv/temperature_big.csv 
+15 .\prog -r ./Test_Txt_Csv/temperature_small.csv 
+16 -d - delete entries in a file <-d file_name>;
+17 .\prog -d ./Test_Txt_Csv/temperature_big.csv XX(number) the number of the deleted line
+18 .\prog -d ./Test_Txt_Csv/temperature_small.csv XX(number) the number of the deleted line

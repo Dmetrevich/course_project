@@ -1,0 +1,13 @@
+Description applecation
+-h To get to help
+-f ./Test_Txt_Csv/temperature_big.csv statistics per year
+-f ./Test_Txt_Csv/temperature_small.csv statistics per year
+requests to sort by date
+WARNING  temperature_small.csv sorting is required
+-f ./Test_Txt_Csv/temperature_big.csv XX(number) -m  statistics per month
+-f ./Test_Txt_Csv/temperature_small.csv XX(number) -m  statistics per month
+-m ./Test_Txt_Csv/temperature_big.csv XX(number)    statistics per month
+-m ./Test_Txt_Csv/temperature_small.csv XX(number)  statistics per month
+-e ./Test_Txt_Csv/temperature_big.csv  show errors in the file
+-r ./Test_Txt_Csv/temperature_small.csv read the file 
+-d ./Test_Txt_Csv/temperature_big.csv XX(number) the number of the deleted line
